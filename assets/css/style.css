@@ -216,23 +216,41 @@ input[type=submit] {
   border: 0 none;
 }
 
-.example {
-  padding: 20px;
-  color: white;
-}
-
-
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 640px) {
-  .example {background: red;}
+  .main-section {float: left;
+  width: 100%;
+  max-width: 640px;
+  padding: 10px;
+  margin: 0 0 20px;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+}
+  .auth-image{width: 125%;}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  .example {background: blue;}
-} 
+  .main-section {float: left;
+    width: 100%;
+    max-width: 768px;
+    padding: 10px;
+    margin: 0 0 20px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+  }
+  .auth-image{width: 60%}
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 980px) {
-  .example {background: orange;}
-} 
+  .main-section {float: left;
+    width: 100%;
+    max-width: 980px;
+    padding: 10px;
+    margin: 0 0 20px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+  }
+  .auth-image{width: 25%;}
+}
