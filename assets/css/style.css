@@ -215,3 +215,24 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+.example {
+  padding: 20px;
+  color: white;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 640px) {
+  .example {background: red;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .example {background: blue;}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 980px) {
+  .example {background: orange;}
+} 
